@@ -9,3 +9,6 @@ def about(request):
 
 def accomodation(request):
     return render(request, 'accomodation.html')
+
+def gallery(request):
+    return render(request, 'gallery.html')
